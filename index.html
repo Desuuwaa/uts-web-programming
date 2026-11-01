@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id-ID">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Dede Suwarman">
+    <meta name="keyword" content="HTML, CSS, PHP">
+    <meta name="description" content="Tugas UTS Web Programming Semester 3">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-icon" href="images/grape.ico">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Dede Suwarman | Web Developer</title>
+  </head>
+
+
+
+  <body>
+    <header class="site-header">
+      <nav class="site-nav container" aria-label="Navigasi utama">
+        <a class="brand" href="index.html">Dede Suwarman<span>.</span></a>
+        <div class="nav-links">
+          <a class="active" href="index.html">Beranda</a>
+          <a href="search.php">Cari</a>
+          <a href="kontak.php">Kontak</a>
+          <a href="https://www.linkedin.com/in/dede-suwarman-287513448/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container page-layout">
+      <div id="content">
+        
+        <article class="hero-card">
+          <p class="eyebrow">Halo, Saya Dede Suwarman</p>
+          <h1>Membangun solusi digital yang bermanfaat.</h1>
+          <p class="lead">Saya sedang menempuh perjalanan belajar di bidang Teknik Informatika dengan minat pada pengembangan web, desain antarmuka, dan pengolahan data.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="search.php">Lihat karya saya</a>
+            <a class="button button-secondary" href="kontak.php">Ajak berdiskusi</a>
+          </div>
+        </article>
+
+        <article class="section-card">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Perjalanan belajar</p>
+              <h2>Hal yang sedang saya tekuni</h2>
+            </div>
+            <span class="section-number">01</span>
+          </div>
+          
+          <p>Saya menikmati proses mengubah masalah sehari-hari menjadi pengalaman digital yang mudah digunakan. Setiap proyek menjadi kesempatan untuk berlatih menulis kode yang rapi, memahami kebutuhan pengguna, dan bekerja secara bertahap.</p>
+          
+          <div class="skill-list" aria-label="Keahlian">
+            <span>HTML &amp; CSS</span>
+            <span>PHP Dasar</span>
+            <span>UI Responsif</span>
+          </div>
+        </article>
+
+        <article class="section-card">
+          <div class="section-heading">
+
+            <div>
+              <p class="eyebrow">Proyek pilihan</p>
+              <h2>Eksperimen yang pernah dikerjakan</h2>
+            </div>
+            
+            <span class="section-number">02</span>
+          
+          </div>
+          
+          <p>Mulai dari landing page sederhana hingga aplikasi pencatatan, saya terus memperluas kemampuan melalui proyek kecil yang memiliki tujuan jelas dan dapat dievaluasi.</p>
+          
+          <a class="text-link" href="search.php?q=proyek">Jelajahi daftar proyek <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="search-panel">
+          <p class="eyebrow">Temukan tulisan</p>
+          
+          <h2>Cari artikel dan proyek</h2>
+          
+          <form class="search-form" method="get" action="search.php">
+            <label for="keyword">Kata kunci</label>
+            
+            <div class="search-row">
+              <input id="keyword" name="q" type="search" placeholder="Contoh: web, data, desain" required>
+              <button class="button button-primary" type="submit">Cari</button>
+            </div>
+          </form>
+        </article>
+      
+      </div>
+
+      <aside class="profile-card">
+        <div class="profile-image-wrap">
+          <img src="https://res.cloudinary.com/dacwunbcd/image/upload/v1793540131/profile_ld9sxv.jpg" alt="Foto profil pemilik portofolio">
+        </div>
+
+        <p class="eyebrow">Tentang saya</p>
+        
+        <h2>Dede Suwarman</h2>
+        
+        <p class="profile-role">Mahasiswa Teknik Informatika</p>
+        
+        <div class="profile-details">
+          <p><strong>Universitas</strong><span>STMIK ROSMA</span></p>
+          <p><strong>Fokus</strong><span>Web Developer</span></p>
+          <p><strong>Status</strong><span>Terbuka untuk kolaborasi</span></p>
+        </div>
+        
+        <a class="profile-link" href="kontak.php">Hubungi saya <span aria-hidden="true">↗</span></a>
+      </aside>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; 2026 Dede Suwarman. Dibuat dengan semangat belajar.</p>
+        <p>Portofolio mahasiswa Informatika</p>
+      </div>
+    </footer>
+  </body>
+</html>
